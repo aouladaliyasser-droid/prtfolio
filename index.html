@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yasser | Ethical Hacker & Penetration Tester</title>
+<meta name="description" content="Professional Ethical Hacker & Web Application Penetration Tester. Vulnerability Assessment, Pentesting & Cybersecurity Services.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<div class="logo">YS</div>
+<div>
+<h1>Yasser</h1>
+<p>Ethical Hacker & Web Application Penetration Tester</p>
+</div>
+</header>
+
+<section class="hero">
+
+<div class="card">
+<h2>About Me</h2>
+<p>
+I am a professional Ethical Hacker specialized in Web Application Penetration Testing and Vulnerability Assessment. I help businesses secure their systems and protect their data from cyber threats.
+</p>
+
+<p><strong>Email:</strong> <a href="mailto:aouladaliyasser@gmail.com">aouladaliyasser@gmail.com</a></p>
+<p><strong>Phone:</strong> <a href="tel:0765326799">0765326799</a></p>
+
+<div class="buttons">
+<a href="#contact" class="btn primary">Request Service</a>
+<a href="tel:0765326799" class="btn outline">Call Me</a>
+<button class="btn primary" id="howWorkBtn">How We Work</button>
+</div>
+</div>
+
+<div class="card">
+<h2>Pricing</h2>
+<p>Quick Test — 100 MAD</p>
+<p>Basic Scan — 200 MAD</p>
+<p>Full Pentest — 300 MAD</p>
+<p>Enterprise Package — 500 MAD+</p>
+</div>
+
+</section>
+
+<section>
+<h2 style="margin-top:40px">Services</h2>
+
+<div class="services">
+
+<div class="card service">
+<h3>Web Application Pentesting</h3>
+<p>Manual and automated security testing based on OWASP Top 10.</p>
+<div class="price">From 300 MAD</div>
+</div>
+
+<div class="card service">
+<h3>Vulnerability Assessment</h3>
+<p>Automated scans with actionable recommendations.</p>
+<div class="price">From 100 MAD</div>
+</div>
+
+<div class="card service">
+<h3>Security Consulting</h3>
+<p>Guidance to improve your website security posture.</p>
+<div class="price">Custom</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" style="margin-top:40px">
+
+<div class="card">
+<h2>Contact Me</h2>
+
+<form>
+<label>Name</label>
+<input type="text" required>
+
+<label>Target Domain / IP</label>
+<input type="text" required>
+
+<label>Service</label>
+<select>
+<option>Quick Test</option>
+<option>Basic Scan</option>
+<option>Full Pentest</option>
+<option>Enterprise</option>
+</select>
+
+<label>Message</label>
+<textarea rows="4"></textarea>
+
+<button class="btn primary" style="margin-top:15px">Send Request</button>
+
+</form>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Yasser | Ethical Hacker</p>
+</footer>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/212765326799" target="_blank">WhatsApp</a>
+
+<!-- How We Work Modal -->
+<div id="howWorkModal">
+  <div id="howWorkModalContent">
+    <span id="closeModal">&times;</span>
+    <h2>How We Work</h2>
+    <p>I am a passionate Penetration Tester specializing in securing websites and helping businesses identify vulnerabilities before attackers do. My goal is to provide reliable and professional security testing that strengthens your digital presence and protects your data.</p>
+
+    <p>I currently offer Website Penetration Testing services, divided into two main categories:</p>
+    <ul>
+      <li>🔹 Dynamic Websites – $650</li>
+      <li>🔹 Static Websites – $350</li>
+    </ul>
+
+    <p><strong>Important note:</strong><br>
+    Testing is performed on a single domain only (no subdomains) to ensure full focus, accuracy, and high-quality results.</p>
+
+    <h3>How I work:</h3>
+    <ul>
+      <li>✔️ 3 complete rounds of testing</li>
+      <li>✔️ Vulnerability discovery, analysis, and verification</li>
+      <li>✔️ Retesting after fixes are applied</li>
+      <li>✔️ Detailed report including:</li>
+      <ul>
+        <li>Vulnerability type</li>
+        <li>Risk level</li>
+        <li>Exploitation overview</li>
+        <li>Clear remediation steps</li>
+      </ul>
+    </ul>
+
+    <p>Payment is required only after the service is completed and results are delivered, because trust and transparency are essential to me.</p>
+
+    <p>If you own a website and want to ensure it is secure, or you are launching a new project and want to start with strong security from day one, feel free to contact me via direct message.</p>
+
+    <p>Cybersecurity is not optional. It is essential. 🔐</p>
+  </div>
+</div>
+
+<script>
+const modal = document.getElementById('howWorkModal');
+const btn = document.getElementById('howWorkBtn');
+const close = document.getElementById('closeModal');
+
+btn.onclick = () => modal.style.display = 'block';
+close.onclick = () => modal.style.display = 'none';
+window.onclick = (e) => { if(e.target==modal) modal.style.display='none'; }
+</script>
+
+</body>
+</html>
